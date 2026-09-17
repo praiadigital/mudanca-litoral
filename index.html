@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudança Litoral — Planeje sua mudança para a praia | Praia Digital</title>
+<meta name="description" content="Planejador completo de mudança para o litoral: custo do frete, checklist de 30 dias e comparativo de custo de vida.">
+<link rel="canonical" href="https://praia.digital/mudanca-litoral/">
+<style>:root{--azul:#0a2540;--mar:#0e7490;--areia:#f8f5ef}*{margin:0;box-sizing:border-box;font-family:system-ui,sans-serif}body{background:var(--areia);color:#1e293b}header{background:linear-gradient(135deg,var(--azul),var(--mar));color:#fff;padding:2.5rem 1.5rem;text-align:center}.badge{display:inline-block;background:rgba(255,255,255,.15);padding:.25rem .8rem;border-radius:999px;font-size:.8rem;margin-bottom:.8rem}main{max-width:760px;margin:2rem auto;padding:0 1.25rem}.card{background:#fff;border-radius:1rem;padding:1.75rem;box-shadow:0 4px 24px rgba(10,37,64,.08);margin-bottom:1.5rem}label{display:block;font-weight:600;margin:1rem 0 .35rem}input,select{width:100%;padding:.7rem;border:1px solid #cbd5e1;border-radius:.5rem;font-size:1rem}button{width:100%;margin-top:1.4rem;background:var(--mar);color:#fff;border:0;padding:.9rem;font-size:1.05rem;font-weight:700;border-radius:.6rem;cursor:pointer}#out{display:none}.preco{font-size:2.2rem;font-weight:800;color:var(--azul);text-align:center}.timeline{margin-top:1rem}.tl{display:flex;gap:.8rem;padding:.7rem 0;border-bottom:1px solid #f1f5f9}.tl b{color:var(--mar);min-width:80px}table{width:100%;border-collapse:collapse;font-size:.92rem;margin-top:.5rem}td,th{padding:.5rem;border-bottom:1px solid #e2e8f0;text-align:left}.rede{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.75rem}.rede a{background:#fff;border:1px solid #e2e8f0;border-radius:.6rem;padding:.8rem;text-decoration:none;color:var(--azul);font-weight:600;font-size:.9rem}footer{text-align:center;padding:2rem;color:#64748b;font-size:.85rem}footer a{color:var(--mar)}</style>
+</head>
+<body>
+<header><span class="badge">🛰️ App satélite de <a href="https://praia.digital" style="color:#fff">praia.digital</a></span><h1>🚚 Mudança Litoral</h1><p>Da cidade grande para a praia — sem estresse e sem surpresa</p></header>
+<main>
+<div class="card">
+<label>De onde você sai?</label><select id="origem"><option value="1800">São Paulo capital</option><option value="2200">Campinas / interior</option><option value="2600">Rio de Janeiro</option><option value="3000">Outra região</option></select>
+<label>Tamanho do imóvel atual</label><select id="tam"><option value="1">Studio / 1 quarto</option><option value="1.6" selected>2 quartos</option><option value="2.4">3 quartos</option><option value="3.5">Casa grande / 4+</option></select>
+<label>Destino no litoral</label><select id="dest"><option value="1">Baixada Santista (Santos, Guarujá...)</option><option value="1.3">Litoral Norte (São Seb., Ubatuba...)</option><option value="1.1">Litoral Sul (Mongaguá, Peruíbe...)</option></select>
+<button onclick="calc()">Planejar mudança</button>
+</div>
+<div class="card" id="out"><p class="preco" id="custo"></p><p style="text-align:center;color:#64748b" id="faixa"></p>
+<div class="timeline">
+<div class="tl"><b>D-30</b><span>Contratar mudança, avisar condomínio, pedir desligamento de serviços</span></div>
+<div class="tl"><b>D-21</b><span>Desapegar: doar/vender o que não vai — maresia pede casa enxuta</span></div>
+<div class="tl"><b>D-14</b><span>Trocar endereço em bancos, assinaturas e cadastros</span></div>
+<div class="tl"><b>D-7</b><span>Embalar não-essenciais, confirmar seguro do novo imóvel</span></div>
+<div class="tl"><b>D-1</b><span>Kit primeira noite: roupa de cama, café, carregadores, documentos</span></div>
+<div class="tl"><b>D+7</b><span>Título de eleitor e transferências finais — você é oficialmente caiçara! 🏖️</span></div></div>
+<p style="margin-top:1rem;font-size:.9rem">Escolha o bairro no <a href="https://praia.digital/bairro-score">Bairro Score</a> e proteja o novo lar com o <a href="https://praia.digital/seguro-imovel">Seguro Imóvel</a>.</p></div>
+<div class="card"><h3>💸 Custo de vida: SP × Litoral (média mensal)</h3><table>
+<tr><th>Item</th><th>São Paulo</th><th>Litoral</th></tr>
+<tr><td>Aluguel 2 quartos</td><td>R$ 3.500</td><td>R$ 2.200 ✅</td></tr>
+<tr><td>Mercado</td><td>R$ 2.000</td><td>R$ 1.850 ✅</td></tr>
+<tr><td>Transporte</td><td>R$ 900</td><td>R$ 500 ✅</td></tr>
+<tr><td>Lazer</td><td>R$ 800</td><td>R$ 400 ✅ (praia é grátis!)</td></tr>
+<tr><td><b>Total</b></td><td><b>R$ 7.200</b></td><td><b>R$ 4.950 (-31%)</b></td></tr></table></div>
+<h2 style="margin:1.5rem 0 .8rem">🌐 Rede Praia Digital</h2>
+<div class="rede">
+<a href="https://praia.digital">🏠 Portal Praia Digital</a>
+<a href="https://praia.digital/match-praia">💘 Match Praia</a>
+<a href="https://praia.digital/vizinho-digital">🏘️ Vizinho Digital</a>
+<a href="https://praia.digital/plano-litoral">📋 Plano Litoral</a>
+<a href="https://praia.digital/apps">🛰️ Todos os apps</a>
+</div>
+</main>
+<footer>Feito com 🌊 pela rede <a href="https://praia.digital">Praia Digital</a> · <a href="https://github.com/praiadigital/mudanca-litoral">código aberto no GitHub</a></footer>
+<script>
+const BRL=v=>'R$ '+Math.round(v).toLocaleString('pt-BR');
+function calc(){const c=(+origem.value)*(+tam.value)*(+dest.value);
+out.style.display='block';custo.textContent=BRL(c);faixa.textContent=`Estimativa do frete completo — faixa típica ${BRL(c*.85)} a ${BRL(c*1.15)}. Embalagem inclusa.`;}
+</script>
+</body></html>
